@@ -134,5 +134,91 @@ main {
 }
 
 .sectionMain h1{
+    text-align: center;
+}
+
+.sectionMain p{
+    line-height: 20px;
+    text-align: justify;
+    
+}
+
+.sectionMain article{
+    height: 250px;
+}
+
+.sectionMain footer{
+    text-align: center;
+}
+
+.botão{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .9em;
+    padding: 5px 15px;
+}
+
+a.botão{
+    color: #FFF;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.botão.saiba_mais_caminhoes{
+    background: linear-gradient(to right, #C0E079, #98BA55);
+    text-shadow: 1px 1px 0 #000;
+    border-color: #98Ba55;
+}
+
+.botão.saiba_mais_caminhoes:hover{
+    color: #7C9841;
+    border-color: #7c9841
+}
+
+.botão.saiba_mais_rastreamento{
+    background: linear-gradient(to right, rgb(224, 121, 121), rgb(186, 85, 85));
+    text-shadow: 1px 1px 0 #000;
+    border-color: #98Ba55;
+}
+
+.botão.saiba_mais_rastreamento:hover{
+    color: rgb(152, 65, 65);
+    border-color: #984141
+}
+
+.botão.saiba_mais_smartphone{
+    background: linear-gradient(to right, rgb(129, 121, 224), #414598);
+    text-shadow: 1px 1px 0 #000;
+    border-color: #98Ba55;
+}
+
+.botão.saiba_mais_smartphone:hover{
+    color: rgb(152, 65, 65);
+    border-color: #414598
+}
+
+#sectionCliente{
+    width: 100%;
+    height: 320px;
+    background-color: #FFFFFF;
+}
+    
+#sectionCliente h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#conteudoCliente{
+    height: 200px;
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+#conteudoCliente article{
+    margin: 10px;
     
 }
