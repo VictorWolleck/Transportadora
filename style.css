@@ -125,7 +125,7 @@ main {
     column-gap: 40px;
 }
 
-.sectionMain{
+.sectionMain {
     width: 190px;
     height: 300px;
     border: 1px solid #CCC;
@@ -133,25 +133,25 @@ main {
     padding: 10px;
 }
 
-.sectionMain h1{
+.sectionMain h1 {
     text-align: center;
 }
 
-.sectionMain p{
+.sectionMain p {
     line-height: 20px;
     text-align: justify;
-    
+
 }
 
-.sectionMain article{
+.sectionMain article {
     height: 250px;
 }
 
-.sectionMain footer{
+.sectionMain footer {
     text-align: center;
 }
 
-.botão{
+.botão {
     display: inline-block;
     font-weight: bold;
     text-transform: uppercase;
@@ -159,57 +159,57 @@ main {
     padding: 5px 15px;
 }
 
-a.botão{
+a.botão {
     color: #FFF;
     border: 1px solid;
     border-radius: 5px;
 }
 
-.botão.saiba_mais_caminhoes{
+.botão.saiba_mais_caminhoes {
     background: linear-gradient(to right, #C0E079, #98BA55);
     text-shadow: 1px 1px 0 #000;
     border-color: #98Ba55;
 }
 
-.botão.saiba_mais_caminhoes:hover{
+.botão.saiba_mais_caminhoes:hover {
     color: #7C9841;
     border-color: #7c9841
 }
 
-.botão.saiba_mais_rastreamento{
+.botão.saiba_mais_rastreamento {
     background: linear-gradient(to right, rgb(224, 121, 121), rgb(186, 85, 85));
     text-shadow: 1px 1px 0 #000;
     border-color: #98Ba55;
 }
 
-.botão.saiba_mais_rastreamento:hover{
+.botão.saiba_mais_rastreamento:hover {
     color: rgb(152, 65, 65);
     border-color: #984141
 }
 
-.botão.saiba_mais_smartphone{
+.botão.saiba_mais_smartphone {
     background: linear-gradient(to right, rgb(129, 121, 224), #414598);
     text-shadow: 1px 1px 0 #000;
     border-color: #98Ba55;
 }
 
-.botão.saiba_mais_smartphone:hover{
+.botão.saiba_mais_smartphone:hover {
     color: rgb(152, 65, 65);
     border-color: #414598
 }
 
-#sectionCliente{
+#sectionCliente {
     width: 100%;
-    height: 320px;
+    height: 359px;
     background-color: #FFFFFF;
 }
-    
-#sectionCliente h1{
+
+#sectionCliente h1 {
     text-align: center;
     padding-top: 10px;
 }
 
-#conteudoCliente{
+#conteudoCliente {
     height: 200px;
     width: 760px;
     margin-left: auto;
@@ -218,7 +218,73 @@ a.botão{
     grid-template-columns: 250px 250px 250px;
 }
 
-#conteudoCliente article{
+#conteudoCliente article {
     margin: 10px;
-    
+
+}
+
+figcaption.text-client {
+    text-align: justify;
+    color: #000;
+}
+
+#containerrodape {
+    height: 350px;
+    width: 100%;
+}
+
+#rodape {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
+
+#rodape_comentario,
+#rodape_nav,
+#caixa_formulario {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.rodape_title {
+    text-align: center;
+}
+
+#rodape_nav li a {
+    height: 25px;
+}
+
+#rodape_comentarios li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#caixa_formulario label{
+    display: block;
+    margin-top: 10px;
+}
+
+#caixa_formulario input{
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+#caixa_formulario textarea{
+    border-radius: 5px;
+    height: 100px;
+    padding-left: 5px;
+}
+
+#caixa_formulario input, #caixa_formulario textarea{
+    border-radius: 5px;
+    padding-left: 5px;
+    color: #FFF;
+    background-color: #333333;
+    border: 1px solid #666666
 }
