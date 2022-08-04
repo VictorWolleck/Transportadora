@@ -110,6 +110,17 @@ nav a:hover {
     color: #919191;
 }
 
+nav.empresa li.link_empresa a, nav a:hover {
+    color: #919191;
+  }
+  nav.servico li.link_servico a, nav a:hover {
+    color: #919191;
+  }
+
+  nav.localizacao li.link_localizacao a, nav a:hover {
+    color: #919191;
+  }
+  
 main {
     width: 980px;
     height: 350px;
