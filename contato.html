@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transid</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Contato</title>
+    <style>
+        label {
+            display: block;
+
+        }
+
+        label span {
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            padding: 5px;
+        }
+
+        input[type=radio],
+        [type=checkbox],
+        [type=reset],
+        [type=submit] {
+            width: auto;
+            height: auto;
+        }
+
+        div{
+            padding: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="topo">
+        <header>
+            <div id="grupo">
+                <h1><a href="index.html"> TRANSID</a></h1>
+                <h2>Transportando com tecnologia</h2>
+            </div>
+            <div id="header-contato">
+                <ul>
+                    <li>
+                        <span class="material-symbols-outlined">mail</span>
+                        <a href="a">transid@transid.com.br</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">call</span>
+                        +55 048 1234-5678
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <nav class="contato">
+        <ul>
+            <li>
+                <a href="index.html" title="Página Inicial">Home</a>
+            </li>
+
+            <li>
+                <a href="empresa.html" title="Página Inicial">Empresa</a>
+            </li>
+
+            <li>
+                <a href="servico.html" title="Página Inicial">Serviços</a>
+            </li>
+
+            <li>
+                <a href="localizacao.html" title="Página Inicial">Localização</a>
+            </li>
+            <li class="link_contato">
+                <a href="contato.html" title="Página Inicial">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="form">
+            <form action="" method="POST">
+                <div id=dados_pessoais>
+                <h1>Dados pessoais</h1>
+                <label>
+                    <span>Nome:</span>
+                    <input type="text" id="nome" name="nome" />
+                </label>
+                <label>
+                    <span>Email:</span>
+                    <input type="text" id="email" name="email" /></label>
+                <label>
+                    <span>Sexo</span>
+                    <input type="radio" class="sexo" name="sexo" value="masculino" />Masculino
+                    <input type="radio" class="sexo" name="sexo" value="feminino" />Feminino
+                </label>
+
+                <label>
+                    <span>Esporte:</span>
+                    <input type="checkbox" class="esporte" value="futebol" />Futebol
+                    <input type="checkbox" class="esporte" value="volei" />Vôlei
+                    <input type="checkbox" class="esporte" value="natacao" />Natação
+                </label>
+
+                <label>
+                    <span>Mês de nascimento</span>
+                    <select name="mesNascimento">
+                        <option value="1">Janeiro</option>
+                        <option value="2">Fevereiro</option>
+                        <option value="3">Março</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Maio</option>
+                        <option value="6">Junho</option>
+                        <option value="7">Julho</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setembro</option>
+                        <option value="10">Outubro</option>
+                        <option value="11">Novembro</option>
+                        <option value="12">Dezembro</option>
+                    </select>
+                </label>
+            </div>
+            <div id="Endereço">
+                <h1>Endereço</h1>
+                <label>
+                    <span>CEP</span>
+                    <input type="text" id="cep" name="cep"/>
+                </label>
+                <label>
+                    <span>Logradouro</span>
+                    <input type="text" id="logradouro" name="logradouro"/>
+                </label>
+                <label>
+                    <span>Bairro</span>
+                    <input type="text" id="bairro" name="bairro"/>
+                </label>
+                <label>
+                    <span>Cidade</span>
+                    <input type="text" id="cidade" name="cidade"/>
+                </label>
+                <label>
+                    <span>Estado</span>
+                    <input type="text" id="estado" name="estado"/>
+                </label>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Limpar"/>
+            </div>
+            </form>
+        </div>
+        <div id="maps"></div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767.8363659507006!2d-48.54746807294675!3d-27.60367421126039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273831874b03cf%3A0x738d23b15d5cc78b!2sFaculdade%20Senac%20Florian%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1659650370000!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+</body>
+
+</html>

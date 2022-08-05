@@ -120,6 +120,10 @@ nav.empresa li.link_empresa a, nav a:hover {
   nav.localizacao li.link_localizacao a, nav a:hover {
     color: #919191;
   }
+
+  nav.contato li.link_contato a, nav a:hover {
+    color: #919191;
+  }
   
 main {
     width: 980px;
